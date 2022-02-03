@@ -1,9 +1,12 @@
 
-const Card = () => {
+const Card = (props) => {
+    const { cardata } = props;
     return (
         <article className="card">
-            <h3> Titre de la <br /> location</h3>
-        </article>
+            <div className="blackGradient"></div>
+            <img src={cardata.cover} alt="" />
+        <span> <h3>{cardata.title}</h3></span>
+    </article> 
     );
 };
 

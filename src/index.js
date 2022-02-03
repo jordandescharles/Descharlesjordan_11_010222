@@ -1,6 +1,6 @@
 import { render } from "react-dom";
 import {BrowserRouter,Routes,Route} from "react-router-dom";
-import App from "./App";
+import App from "./routes/App";
 import About from "./routes/About";
 import NotFound from "./routes/NotFound";
 import './css/style.css'

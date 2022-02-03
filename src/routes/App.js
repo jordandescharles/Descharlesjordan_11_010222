@@ -1,9 +1,9 @@
 
-import BannerTop from './component/BannerTop';
-import Cards from './component/Cards';
-import Footer from './component/Footer';
-import Logo from './component/Logo';
-import MenuNav from './component/MenuNav';
+import BannerTop from '../component/BannerTop';
+import Cards from '../component/Cards';
+import Footer from '../component/Footer';
+import Logo from '../component/Logo';
+import MenuNav from '../component/MenuNav';
 
 function App() {
   return (
