@@ -5,10 +5,13 @@ const Cards = () => {
 
     return (
         <div className="cardsContainer" key={Data.id}>
+            <section className="cardAlign">
             {Data.map((cardata)=>(
                 <Card cardata={cardata} key={cardata.id}/>
             ))}
+            </section>
         </div>
+        
     );
 };
 

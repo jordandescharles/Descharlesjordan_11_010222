@@ -1,5 +1,4 @@
-
-
+import BannerTop from '../component/BannerTop';
 import Footer from '../component/Footer';
 import Logo from '../component/Logo';
 import MenuNav from '../component/MenuNav';
@@ -11,7 +10,7 @@ const About = () => {
       <Logo /> 
       <MenuNav />
       </header>
-    
+      <BannerTop />
       <Footer />
         </div>
     );
