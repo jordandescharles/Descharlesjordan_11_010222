@@ -1,0 +1,45 @@
+.cardTop{
+    display: flex;
+    justify-content: space-between;
+
+    .profilecard{
+        margin-top: 5px;
+        display: flex;
+        p{
+            margin: 0;
+            max-width: 100px;
+            max-height: 80px;
+            font-size: 16pt;
+            color: #FF6060;
+            text-align: right;
+            margin-right: 20px;
+            margin-top: 14px;
+        }
+        .profile{
+            max-height: 80px;
+            border-radius: 600px;
+        } 
+    }   
+   .left ul{
+        display: flex;
+        padding: 0%;
+        
+    }
+    .left li{
+        width: 150px;
+        text-align: center;
+        background-color: #FF6060;
+        border-radius: 20px;
+        margin-right: 20px;
+        padding: 5px;
+        list-style: none;
+        color: white;
+        font-size: 12px;
+   
+    }
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}

@@ -1,0 +1,50 @@
+#starbase{
+   
+    img{
+        width: 30px;
+        margin-left: 8px;
+        margin-top: 10px;;
+    }
+}
+.star0{
+    :nth-child(n+1) {
+        opacity: 0.4;
+        filter: grayscale(100%);
+        -webkit-filter: grayscale(100%); 
+    }
+}
+.star1{
+    :nth-child(n+2) {
+        opacity: 0.4;
+        filter: grayscale(100%);
+        -webkit-filter: grayscale(100%); 
+    }
+}
+.star2{
+    :nth-child(n+3) {
+        opacity: 0.4;
+        filter: grayscale(100%);
+        -webkit-filter: grayscale(100%); 
+    }
+}
+.star3{
+    :nth-child(n+4) {
+        opacity: 0.4;
+        filter: grayscale(100%);
+        -webkit-filter: grayscale(100%); 
+    }
+}
+.star4{
+    :nth-child(n+5) {
+        opacity: 0.4;
+        filter: grayscale(100%);
+        -webkit-filter: grayscale(100%); 
+    }
+}
+.star5{
+    :nth-child(n+6) {
+        opacity: 0.4;
+        filter: grayscale(100%);
+        -webkit-filter: grayscale(100%); 
+    }
+}
