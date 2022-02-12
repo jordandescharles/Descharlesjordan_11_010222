@@ -178,6 +178,8 @@
 .alltexts {
   display: flex;
   justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 50px;
 }
 
 .titlExpand {
@@ -185,10 +187,10 @@
   position: relative;
   background-color: #FF6060;
   display: flex;
+  justify-content: space-between;
   align-items: center;
   padding-left: 10px;
   padding-right: 10px;
-  justify-content: space-between;
   border-radius: 10px;
 }
 .titlExpand p {
@@ -198,19 +200,17 @@
 .titlExpand img {
   max-height: 20px;
   vertical-align: middle;
-  transform: rotate(180deg);
+  transform: rotate(0deg);
 }
 
 .textExpand {
-  z-index: 1;
-  position: relative;
+  color: #FF6060;
+  font-weight: 100;
   transform: translateY(-20px);
   background-color: #F6F6F6;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   line-height: 25px;
-  color: #FF6060;
-  font-weight: 100;
 }
 .textExpand p {
   margin: 0;
@@ -224,6 +224,52 @@
 
 .half-size {
   width: 47%;
+  height: fit-content;
+}
+
+.full-size {
+  width: 100%;
+}
+
+.hideText {
+  margin-bottom: 80px;
+}
+.hideText :first-child img {
+  transform: rotate(180deg);
+}
+.hideText .textExpand {
+  transform: translate(0px, -100%);
+  margin-top: -100%;
+  opacity: 0;
+}
+
+.hideBlock img {
+  transform: rotate(180deg);
+}
+
+.alltexts_about {
+  flex-direction: column;
+}
+
+.center {
+  text-align: center;
+}
+
+.ultraBig {
+  font-size: 30vh;
+  color: #FF6060;
+  font-weight: 700;
+  margin-top: 8vh;
+  margin-bottom: 2vh;
+  text-align: center;
+}
+
+.text404 {
+  margin-top: 8vh;
+  margin-bottom: 7vh;
+  text-align: center;
+  color: #FF6060;
+  text-decoration: underline;
 }
 
 #root {

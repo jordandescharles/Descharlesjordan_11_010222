@@ -38,9 +38,7 @@ const BannerCard = (props) => {
             </span>
             </div>
     </article>
-  
-           
-                   
+             
     </>
   )
 }
