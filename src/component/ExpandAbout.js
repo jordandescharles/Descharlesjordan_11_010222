@@ -6,10 +6,13 @@ function ExpandAbout() {
 
     const [isActive, setActive] = useState(true);
     const toggleClass = () => {setActive(!isActive);};
+
     const [isActive2, setActive2] = useState(true);
     const toggleClass2 = () => {setActive2(!isActive2);};
+
     const [isActive3, setActive3] = useState(true);
     const toggleClass3 = () => {setActive3(!isActive3);};
+    
     const [isActive4, setActive4] = useState(true);
     const toggleClass4 = () => {setActive4(!isActive4);};
  

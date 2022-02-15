@@ -5,7 +5,7 @@ const Card = (props) => {
     return (
         <article className="card" id={cardata.id}> 
 
-            <Link to={'/CardPage/b9123946'}>
+            <Link to={`/CardPage/${cardata.id}`}>
             <div className="blackGradient"></div>
             <img src={cardata.cover} alt="" />
             </Link>
