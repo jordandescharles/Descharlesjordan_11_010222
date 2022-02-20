@@ -1,10 +1,15 @@
-import{ Link } from 'react-router-dom'
+import{ NavLink } from 'react-router-dom'
 
 const MenuNav = () => {
     return (
         <nav className='navMenu'>
-        <Link to="/">accueil</Link> 
-        <Link to="/about"> à propos</Link>
+        <NavLink to="/" style={({ isActive }) => ({
+          borderBottom: isActive ? '2px solid #FF6060' : '#none', 
+        })}
+        >accueil</NavLink> 
+        <NavLink to="/about" style={({ isActive }) => ({
+          borderBottom: isActive ? '2px solid #FF6060' : '#none', 
+        })}> à propos</NavLink>
       </nav>
     );
 };
