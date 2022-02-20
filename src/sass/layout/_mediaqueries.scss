@@ -1,0 +1,120 @@
+@media screen and (max-width: 1279px){
+
+    // homepage
+    .App{
+        padding: 0px 10px;
+
+        .backBanner {
+            margin-top: 20px;
+
+            img{
+            width: 100%;
+            height: 110px;
+            }
+        
+            h1{
+            font-size: 25px;
+            text-align: left;
+            left: 40%;
+            top:30%;
+            width: 250px;
+            }
+        }   
+    }
+    header{
+        img{max-width: 150px;}
+    }
+    header .navMenu{
+        :first-child{ margin-right: 10px; }
+        a{font-size: 13px ;   }
+    }
+
+    main.cardsContainer {
+        background-color: white;
+        border-radius: 0px;
+        padding: 0px;
+        align-items:center;
+        margin-top: 20px;
+    }
+    section.cardAlign{
+        width: 100%;
+        gap:20px
+       
+    }
+    .cardAlign .card{
+        width: 100%;
+        height: 255px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card a img  {
+        width: 100%;
+        height: 255px;
+    }
+     .card a .blackGradient{
+        width: 100%;
+        height: 255px;}
+    
+    // cardPage
+
+    div.BannerPage img{ 
+        height: 255px;
+    }
+
+    .left h2{
+        font-size: 20px;
+        margin-top: 0px;
+    }
+    div.alltexts{
+        display: block;
+    }
+    article.cardTop{
+        display: block;
+    }
+    div.right{
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+    span#starbase img{
+        width: 15px;
+        margin-left: 0px;
+        margin-right: 5px;
+
+    }
+    .cardTop .profilecard .profile{
+        width: 32px;
+        height: 32px;
+    }
+    article.cardTop .profilecard p{
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    article.cardTop .left li{
+        width: 100%;
+    }
+    div.halfsize div{
+        width: auto;
+    }
+    div.textExpand p{
+        width: auto;
+    }
+    div.backBanner img{
+        max-width: 100%;
+        height: 225px;
+        object-fit: cover;
+
+    }
+    h1.ultraBig{
+        font-size: 100px;
+        margin-top: 200px;
+    }
+    h2.center{
+        font-size: 20px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+     div.footer{
+        margin-top: 100px;
+    }
+}
