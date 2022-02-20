@@ -12,8 +12,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 0px 10px;
     border-radius: 10px;
 
     p{
@@ -30,35 +29,37 @@
     color: #FF6060;
     font-weight: 100;
     transform: translateY(-20px);
-    background-color:#F6F6F6 ;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
     line-height: 25px;
    
     p{
         margin: 0;
-        padding: 50px 20px 20px 20px;    
+        padding: 40px 10px 20px 10px;
+        width: 100%; 
+        background-color: #F6F6F6;   
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;  
     }
-    ul{
+    li{
         margin: 0;
         list-style: none;
-        padding: 50px 20px 20px 20px;
+        padding: 0;
     }
 }
-.half-size{
-    width: 47%;
-    height:fit-content;
+.halfsize {
+    gap: 30px;
+    div{ 
+    width: 96%;   
+    }    
 }
+
 .full-size{
     width: 100%;
     
 }
-
-.hideText{
+.hidetext{
     :first-child{
         img{
             transform: rotate(180deg);
-
         }
     }
     .textExpand{
@@ -74,6 +75,5 @@
 }
 
 .alltexts_about{
-    flex-direction: column;
-    
+    flex-direction: column;  
 }

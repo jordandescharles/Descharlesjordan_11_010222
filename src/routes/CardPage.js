@@ -28,8 +28,8 @@ function CardPage() {
         <MenuNav />
         </header>
 
-        <BannerCard  data={dataOk} key={dataOk.id}/> 
-        <Expand  data={dataOk} key={dataOk.title}/>
+        <BannerCard data={dataOk} key={dataOk.id}/> 
+        <Expand data={dataOk} key={dataOk.title}/>
       
 
       <Footer />

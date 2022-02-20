@@ -1,6 +1,5 @@
 import Card from "./Card";
 import Data from '../json/data';
-import { Link } from "react-router-dom";
 
 const Cards = () => {
 
@@ -15,6 +14,6 @@ const Cards = () => {
         </div>
         
     );
-};
+}; 
 
 export default Cards;
