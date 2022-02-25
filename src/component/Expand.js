@@ -2,16 +2,18 @@ import React, {  useState } from 'react';
 import Arrow from '../img/arrow.png';
 
 function Expandtest(prop) {  
-    const [isActive, setActive] = useState(true);
-    const toggleClass = () => {setActive(!isActive);};
+
+    const [activeExpand, setActive] = useState(true);
+    const toggleClass = () => {setActive(!activeExpand);};
+
     return(
                
-        <div className={`${isActive ? "hidetext": null}`}  onClick={toggleClass}  >   
+        <div className={`${activeExpand ? "hidetext": null}`}  onClick={toggleClass}  >   
             <div className='titlExpand' >
                 <h3>{prop.title}</h3><img src={Arrow} alt="" />
             </div>
-            <div className='textExpand '>
-            <p>{prop.contenu}</p>
+            <div className='textExpandPage '>
+            <p className='textContent'>{prop.contenu}</p>
             </div>
         </div>
         

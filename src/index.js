@@ -1,9 +1,9 @@
 import { render } from "react-dom";
 import {BrowserRouter,Routes,Route} from "react-router-dom";
-import App from "./routes/App";
-import About from "./routes/About";
-import CardPage from "./routes/CardPage";
-import NotFound from "./routes/NotFound";
+import App from "./pages/App";
+import About from "./pages/About";
+import CardPage from "./pages/CardPage";
+import NotFound from "./pages/NotFound";
 import './css/style.css'
 
 const rootElement = document.getElementById("root");

@@ -118,4 +118,40 @@
      div.footer{
         margin-top: 100px;
     }
+
+    .sliderImg{
+
+        height: 355px;
+
+    }
+    img.navArrow{
+        height: 20px;
+        width: 12px;
+    }
+    div.arrows{
+        position: relative;
+        z-index: 999;
+        margin-top: -40px;
+        transform: translateY(220px);
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 20px;    
+    }
+
+    .hideArrow{
+        height: 20px;
+        width: 12px;
+        opacity: 0;
+        pointer-events: none;
+         cursor: default;
+     }
+
+     .textExpandPage p.textContent{
+            width: auto; 
+    }
+    .indicator{
+        opacity: 0;
+    }
+ 
+
 }

@@ -9,9 +9,7 @@ const BannerCard = (props) => {
 
   return (
     <>
-        <div className="BannerPage">
-            <img src={data.cover} alt="presentation de la location" />
-        </div>
+    
 
       <article className='cardTop'>  
         <div className='left'>

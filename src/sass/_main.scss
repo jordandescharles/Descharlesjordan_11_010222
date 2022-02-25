@@ -6,6 +6,7 @@
 @import "./layout/banners";
 @import "./layout/expand";
 @import "./layout/404";
+@import "./layout/slider";
 
 #root{
     font-family: 'Montserrat', sans-serif;
@@ -15,6 +16,7 @@
     margin-top: 5vh;
 }
 .navMenu{ 
+    z-index: 9999;
     a{
         text-decoration: none;
         color :#FF6060;

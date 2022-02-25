@@ -25,7 +25,7 @@
         transform: rotate(0deg);
     }
 }
-.textExpand{
+.textExpandPage{
     color: #FF6060;
     font-weight: 100;
     transform: translateY(-20px);
@@ -62,7 +62,7 @@
             transform: rotate(180deg);
         }
     }
-    .textExpand{
+    .textExpand,.textExpandPage{
     transform: translate(0px, -100%);
     margin-top: -100%;
     opacity: 0;}
@@ -76,4 +76,23 @@
 
 .alltexts_about{
     flex-direction: column;  
+}
+.textExpand{
+    color: #FF6060;
+    font-weight: 100;
+    transform: translateY(-20px);
+    line-height: 25px;
+   
+    p{
+        margin: 0;
+        padding: 40px 10px 20px 10px;
+        background-color: #F6F6F6;   
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;  
+    }
+    li{
+        margin: 0;
+        list-style: none;
+        padding: 0;
+    }
 }
