@@ -5,7 +5,7 @@ import MenuNav from '../component/MenuNav';
 import BannerCard from '../component/BannerCard';
 import { useParams } from 'react-router';
 import Expand from '../component/Expand';
-import Carousel from '../component/Carousel';
+import Gallery from '../component/Gallery';
 
 let dataFiltered;
 
@@ -28,7 +28,7 @@ function CardPage() {
         <Logo /> 
         <MenuNav />
         </header>
-        <Carousel data={dataOk} key={dataOk.id + "car"}/> 
+        <Gallery data={dataOk} key={dataOk.id + "car"}/> 
         <BannerCard data={dataOk} key={dataOk.id}/>
         
         <Expand data={dataOk} key={dataOk.title}/>

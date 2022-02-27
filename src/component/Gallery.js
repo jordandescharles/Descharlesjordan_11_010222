@@ -4,7 +4,6 @@ import ArrowRight from '../img/arrowRight.png';
 
 
 let total;
-let zero = 0;
 
 const Carousel = (props) => {
 
