@@ -4,7 +4,7 @@ import ArrowRight from '../img/arrowRight.png';
 
 
 let total;
-
+let zero = 0;
 
 const Carousel = (props) => {
 
@@ -12,14 +12,29 @@ const Carousel = (props) => {
     const [current,setCurrent] = useState(0)
     const [activeImage,setActive] = useState(0)
 
+    function checkindexmax(){
+        if (current === portfolio.length-1){
+            setCurrent(current - portfolio.length + 1)
+            setActive(activeImage - portfolio.length + 1)
+        }
+    }
+    function checkindexlow(){
+        if (current === 0){
+            setCurrent(current + portfolio.length - 1)
+            setActive(activeImage + portfolio.length -1 )
+        }
+    }
+
     total = portfolio.length;
+
+
 
     return (
         <section className='slider'>
 
           <div className='arrows'>
-                <img src={ArrowLeft} onClick={() => { setCurrent(current - 1); setActive(activeImage - 1)}} alt="previous" className={current === 0 ? 'hideArrow ' :'navArrow' } />
-                <img src={ArrowRight} onClick={() => { setCurrent(current + 1); setActive(activeImage + 1)}} alt="next" className={current === total-1 ? 'hideArrow ' :'navArrow' } />
+                <img src={ArrowLeft} onClick={() => { setCurrent(current - 1); setActive(activeImage - 1) ;checkindexlow()}} alt="previous" className={portfolio.length === 1 ? 'hideArrow' :'navArrow ' } />
+                <img src={ArrowRight} onClick={() => { setCurrent(current + 1); setActive(activeImage + 1) ;checkindexmax()}} alt="next" className={portfolio.length === 1 ? 'hideArrow' :'navArrow ' } />
             </div>
 
             {portfolio.map((slide, index) => {
