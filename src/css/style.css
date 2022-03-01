@@ -406,6 +406,9 @@
 .hidetext :first-child img {
   transform: rotate(180deg);
 }
+.hidetext .textExpandPage .textContent {
+  display: none;
+}
 .hidetext .textExpand, .hidetext .textExpandPage {
   transform: translate(0px, -100%);
   margin-top: -100%;

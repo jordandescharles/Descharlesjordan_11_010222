@@ -29,11 +29,8 @@ function CardPage() {
         <MenuNav />
         </header>
         <Gallery data={dataOk} key={dataOk.id + "car"}/> 
-        <BannerCard data={dataOk} key={dataOk.id}/>
-        
+        <BannerCard data={dataOk} key={dataOk.id}/> 
         <Expand data={dataOk} key={dataOk.title}/>
-      
-
       <Footer />
     </div>
   );

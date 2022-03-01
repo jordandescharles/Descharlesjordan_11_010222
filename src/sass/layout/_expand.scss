@@ -56,19 +56,25 @@
     width: 100%;
     
 }
-.hidetext{
+.hidetext{ 
+   
     :first-child{
         img{
             transform: rotate(180deg);
         }
-    }
+       
+    } .textExpandPage .textContent {
+            display: none;
+        }
     .textExpand,.textExpandPage{
     transform: translate(0px, -100%);
     margin-top: -100%;
     opacity: 0;}
-    margin-bottom: 80px;  
+    margin-bottom: 80px; 
+   
+
 }
-.hideBlock{
+.hideBlock{ 
   img{
       transform: rotate(180deg);
   }

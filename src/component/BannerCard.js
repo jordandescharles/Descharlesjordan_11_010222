@@ -9,8 +9,6 @@ const BannerCard = (props) => {
 
   return (
     <>
-    
-
       <article className='cardTop'>  
         <div className='left'>
             <h2>{data.title}</h2>
