@@ -63,8 +63,8 @@
             transform: rotate(180deg);
         }
        
-    } .textExpandPage .textContent {
-            
+    } .textExpandPage  {
+        pointer-events: none 
         }
     .textExpand,.textExpandPage{
     transform: translate(0px, -100%);

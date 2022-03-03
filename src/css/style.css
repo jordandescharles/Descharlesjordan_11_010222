@@ -158,10 +158,6 @@
     cursor: default;
   }
 
-  .hideText .textExpandPage .textContent {
-    display: none;
-  }
-
   .textExpandPage p.textContent {
     width: auto;
   }
@@ -409,6 +405,9 @@
 }
 .hidetext :first-child img {
   transform: rotate(180deg);
+}
+.hidetext .textExpandPage {
+  pointer-events: none;
 }
 .hidetext .textExpand, .hidetext .textExpandPage {
   transform: translate(0px, -100%);
